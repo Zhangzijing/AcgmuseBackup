@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AcgMuse 曲谱阅览器</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="style/spectre.min.css">
+	<link rel="stylesheet" href="style/spectre-exp.min.css">
+	<link rel="stylesheet" href="style/spectre-icons.min.css">
+	<script type="text/javascript" src="script/main.js"></script>
+</head>
+<body>
+    <div class="columns">
+     <div class="column  col-12">
+       <div class="hero hero-sm bg-dark">
+         <div class="hero-body col-8 col-mx-auto">
+           <h1>Acgmuse曲谱阅读器</h1>
+           <p>拖入.json曲谱文件即可读取</p>
+         </div>
+       </div>
+     </div>
+<!--startprint-->
+     <div class="column ">
+         <div class="hero-body col-8 col-mx-auto">
+           <p></p>
+           <div class="card">
+			  <div class="card-image">
+			    <img class="score-img img-responsive" src="" class="img-responsive">
+			  </div>
+			  <div class="card-header">
+			    <div class="card-title h3 score-name">[曲谱名称]</div>
+			    <div class="card-subtitle text-gray score-meta"></div>
+			  </div>
+			  <div class="card-body score-text">
+			    ...
+			  </div>
+			  <div class="card-footer">
+			  	<div class="card-subtitle text-gray score-foot"></div>
+			  	<br />
+			    <button class="btn btn-primary" onclick="doPrint()">打印</button>
+			  </div>
+			</div>
+         </div>
+     </div>
+
+<!--endprint-->
+</body>
+</html>
