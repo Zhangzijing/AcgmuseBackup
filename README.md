@@ -16,4 +16,4 @@
 
 ## Acgmuse 记谱法
 
-基于je记谱法的一种新法. 欢迎尝试: (AM 记谱法刍议 0.3)[https://github.com/Zhangzijing/AcgmuseBackup/blob/master/AM 记谱法刍议 0.3.md]
+基于je记谱法的一种新法. 欢迎尝试: (AM 记谱法刍议 0.3)[https://github.com/Zhangzijing/AcgmuseBackup/blob/master/AM_记谱法刍议_0.3.md]
